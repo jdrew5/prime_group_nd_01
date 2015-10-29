@@ -3,23 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <link rel="stylesheet" href="./vendors/bootstrap.min.css">
         <link rel="stylesheet" href="./styles/style.css">
         <script type="text/javascript" src="./vendors/jquery.min.js"></script>
         <script type="text/javascript" src="./scripts/app.js"></script>
     </head>
-    <body>
+    <div>
+
+        <div class="headercontainer col-xs-12">
+            <div id="generateButton" class="btn btn-success">Generate</div>
+            <div id="companyName"></div>
+        </div>
+
+        <div id="frontEnd" class="targetpoints col-xs-2"></div>
+        <div id="clientSide" class="targetpoints col-xs-2"></div>
+        <div id="serverSide" class="targetpoints col-xs-2"></div>
 
 
-        <div id="generateButton">Generate</div>
-        <div id="assignStaffButton">Assign Staff</div>
-        <div id="companyName"></div>
+        <div class = "col-xs-12">
+            <div class="assignStaffButton btn btn-success"></div>
+        </div>
 
-        <div id="frontEnd" class="points"></div>
-        <div id="clientSide" class="points"></div>
-        <div id="serverSide" class="points"></div>
-
-
-
+        <div id="totalFrontEnd" class="points col-xs-2"></div>
+        <div id="totalClientSide" class="points col-xs-2"></div>
+        <div id="totalServerSide" class="points col-xs-2"></div>
+        <div id="totalWeeks" class="col-xs-12"></div>
 
     </body>
 </html>

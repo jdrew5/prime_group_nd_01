@@ -1,5 +1,29 @@
 .points {
-    display: inline-block;
+    display: none;
     border: 2px solid black;
     margin: 3px;
+}
+
+.container, .targetcontainer, .totalcontainer {
+    border: 1px solid black;
+}
+
+.assignStaffButton {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+    position: relative;
+}
+
+.showbutton {
+    display: inline-block;
+}
+
+.targetpoints {
+    display: none;
+    border: 2px solid black;
+    margin: 3px;
+
 }

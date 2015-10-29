@@ -3,16 +3,17 @@
  */
 var name = require('./name');
 var category = require('./category');
-//var points = require('./points');
+var points = require('./points');
 
 var createEmployee = function(){
     var x=name();
     var y=category();
+    var z=points();
 
     return {
         name : x,
-        category : y
-        //points : points()
+        category : y,
+        points : z
     };
 
 };
